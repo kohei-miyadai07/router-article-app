@@ -1,11 +1,11 @@
-const home = () => {
+const popular = () => {
   return (
     <div>
       <div className="flex-1 sm:ml-64">
-        <h1>記事一覧</h1>
+        <h1>人気記事</h1>
       </div>
     </div>
   );
 };
 
-export default home;
+export default popular;
