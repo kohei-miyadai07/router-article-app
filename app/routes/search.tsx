@@ -15,7 +15,7 @@ async function fetchArticles(keywords?: string) {
     `https://qiita.com/api/v2/items?page=1&per_page=20&query=${query}`,
     {
       headers: {
-        Authorization: `Bearer 044cafe0c40818ead4fad8d729e609c1d5a24e74`,
+        Authorization: `Bearer access-token`,
       },
     }
   );

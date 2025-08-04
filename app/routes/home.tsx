@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 export async function loader({ params }: Route.LoaderArgs) {
   const res = await fetch(`https://qiita.com/api/v2/authenticated_user/items`, {
     headers: {
-      Authorization: `Bearer 044cafe0c40818ead4fad8d729e609c1d5a24e74`,
+      Authorization: `Bearer access-token`,
     },
   });
   const articlesJson: ArticleJson[] = await res.json();

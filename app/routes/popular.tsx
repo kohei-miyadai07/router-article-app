@@ -8,7 +8,7 @@ export async function loader({ params }: Route.LoaderArgs) {
     "https://qiita.com/api/v2/items?page=1&per_page=20&query=user%3ASicut_study",
     {
       headers: {
-        Authorization: `Bearer 044cafe0c40818ead4fad8d729e609c1d5a24e74`,
+        Authorization: `Bearer access-token`,
       },
     }
   );
